@@ -1,4 +1,8 @@
 
+
+/* ==============================
+   1. VARIABEL WARNA
+============================== */
 :root {
   --navy: #66521E;        /* Cokelat keemasan */
   --purple: #F2CF63;      /* Kuning mentega */
@@ -10,50 +14,76 @@
   --soft-blue: #FFF3C4;   /* Kuning pastel */
 }
 
+/* ==============================
+   2. PENGATURAN DASAR
+============================== */
 * {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   font-family: 'DM Sans', Arial, sans-serif;
   color: var(--ink);
   line-height: 1.7;
-  background: var(--paper);
+  background-color: var(--paper);
 }
 
-h1, h2, h3, .navbar-brand {
+/* ==============================
+   3. JUDUL DAN BRAND
+============================== */
+h1,
+h2,
+h3,
+.navbar-brand {
   font-family: 'Playfair Display', Georgia, serif;
 }
 
+/* ==============================
+   4. NAVIGASI
+============================== */
 .main-nav {
-  background: var(--navy);
-  padding: .85rem 0;
+  padding: 0.85rem 0;
+  background-color: var(--navy);
 }
 
+/* ==============================
+   5. TOMBOL UTAMA
+============================== */
 .btn-primary {
-  background: var(--purple);
+  color: var(--ink);
+  background-color: var(--purple);
   border-color: var(--purple);
-  color: #403820;
 }
 
 .btn-primary:hover {
-  background: var(--purple-dark);
+  color: var(--ink);
+  background-color: var(--purple-dark);
   border-color: var(--purple-dark);
-  color: #403820;
 }
 
+/* ==============================
+   6. BANNER MATERI
+============================== */
 .material-banner {
-  background: var(--soft-blue);
+  background-color: var(--soft-blue);
 }
 
+/* ==============================
+   7. TAUTAN
+============================== */
 a {
   color: #8A6814;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #66521E;
+  color: var(--navy);
 }
 
+/* ==============================
+   8. TEKS AKSEN
+============================== */
 .accent-text {
   color: #B98214;
 }
